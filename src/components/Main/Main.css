@@ -5,35 +5,9 @@
     align-items: center;
     padding: 2rem;
     background-color: #b78e8e;
-    height: 100%;
+    height: 100vh;
     
     h1{
         text-transform: uppercase;
     }
-}
-
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.tags{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-}
-
-.tag{
-    margin: 0 .5rem;
-    padding: .5rem;
-    border-radius: 5px;
-    background-color: #DAA520;
-    color: #ffff;
-    font-size: .8rem;
-    text-transform: uppercase;
-    cursor: pointer;
 }

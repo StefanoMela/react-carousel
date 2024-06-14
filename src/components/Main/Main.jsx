@@ -10,15 +10,7 @@ function Main() {
           <h1>Il mio blog</h1>
         </div>
         <section className="carouselSection">
-          {posts.map(post => (
-            <Carousel 
-              key={post.id}
-              title={post.title}
-              image={post.image}
-              content={post.content}
-              tags={post.tags}
-            />
-          ))}
+            <Carousel elements={posts}/>
         </section>
       </section>
     </>
